@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /shyam-solo-service
+                    -   path: /shyam-solo-service-manual
                         backend:
                             serviceName: shyam-solo-microservice-service
                             servicePort: 30201
