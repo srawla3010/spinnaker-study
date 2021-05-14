@@ -5,7 +5,7 @@ provider "aws" {
 variable "team-name" {
   description = "team-name"
   type        = string
-  default     = "shyam-solo-name"
+  default     = "shyam-solo"
 }
 
 resource "aws_db_instance" "microservice-db" {
